@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(255, 190, 51);
+  font-family: 'Courier New', Courier, monospace, cursive;
+}
+.header {
+  height: 70px;
+}
+.logo {
+  float: left;
+  padding: 10px;
+}
+.logo img {
+  width: 80px;
+  height: 50px;
+}
+.menu {
+  float: right;
+  margin: 24px;
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+}
+.banner {
+  background-image: url(../img/gabo.jpg);
+  background-size: cover;
+  height: 550px;
+}
+.banner2 {
+    background-image: url(../img/gabriel-garcia-marquez_4690.jpg);
+    background-size: cover;
+    height: 550px;
+  }
+.banner h1 {
+  text-align: right;
+  font-size: 80px;
+  padding: 150px 50px 35px;
+}
+.banner2 h1 {
+    text-align: right;
+    font-size: 60px;
+    padding: 50px 50px 35px;
+    color: cornsilk;
+  }
+.obras {
+  width: auto;
+  margin: auto;
+}
+.obras .tdObras {
+  padding: 50px;
+}
+
+.botonObras {
+  width: 90px;
+  height: 80px;
+  background-color: #ff3b85;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  line-height: 80px;
+}
+
+
+.inicio {
+    width: auto;
+    margin: auto;
+}
+.inicio .tdInicio {
+    padding: 50px;
+}
+  
+.botonInicio {
+    width: 90px;
+    height: 80px;
+    background-color: #ff3b85;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.botonInicio:hover {
+    opacity: 0.7;
+}
+
+.botonInicio a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .descripcion {
+    background-color: #009500;
+    color: white;
+    padding: 20px 100px 70px 100px;
+    text-align:center;
+  }
+  .descripcion h2{
+      text-align: center;
+      padding: 10px;
+      font-size: 50px;
+  }.decripcion p {
+      font-size: 20px;
+  }
+
+.botonObras:hover {
+  opacity: 0.7;
+}
+.botonObras a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.biografia {
+  background-color: #009500;
+  color: white;
+  padding: 20px 100px 70px 100px;
+  text-align: justify;
+}
+.biografia h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}.biografia p {
+    font-size: 20px;
+}
+.descripcion {
+    background-color: crimson;
+}
+.premios {
+    text-align: center;
+    padding: 10px;
+}
+.premios table {
+    padding: 30px 100px;
+}
+.premios h2 {
+    font-size: 45px;
+}
+.premios td{
+    font-size: 20px;
+    text-align: left;
+}
+.premios .year{
+    background-color: turquoise;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    
+}
+
+footer{
+    background-color: rgb(76, 151, 0);
+    color: cornsilk;
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 20px;
+
+}
+
+.year {
+    padding: 10px 200px;
+    color: rgb(255, 255, 255);    
+    background-color: rgb(9, 160, 145);
+}
+
+.year h2{
+    font-size: 50px;
+    text-align: center;
+}
+.year p{
+    font-size: 20px;
+    text-align: center;
+}
